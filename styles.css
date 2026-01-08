@@ -103,6 +103,11 @@ body {
     gap: 2rem;
 }
 
+.nav-menu li {
+    display: flex;
+    align-items: center;
+}
+
 .nav-link {
     color: var(--text-secondary);
     text-decoration: none;
@@ -135,6 +140,18 @@ body {
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
+}
+
+/* Navbar resume button sizing */
+.resume-btn {
+    padding: 6px 12px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    height: auto;
 }
 
 .hamburger span {
