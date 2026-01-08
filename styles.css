@@ -440,8 +440,14 @@ section {
 
 .job-bullets {
     list-style: disc;
-    margin-left: 1rem;
+    list-style-position: outside;
+    padding-left: 1.25rem;
+    margin: 0 0 1rem 0;
     color: var(--text-secondary);
+}
+
+.job-bullets li::marker {
+    color: var(--primary-color);
 }
 
 .job-bullets li {
